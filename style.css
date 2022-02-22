@@ -58,7 +58,7 @@ section {
 
 .main h2 {
     color: #fff;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: 500;
 }
 
@@ -66,13 +66,13 @@ section {
     display: inline-block;
     margin-top: 10px;
     color: #4e9eff;
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: 600;
 }
 
 .main h3 {
     color: #fff;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 10px;
@@ -197,6 +197,11 @@ section {
     text-transform: uppercase;
     font-weight: 800;
     margin-top: 10px;
+}
+#hr{
+    width:100%;
+    text-align:left;
+    margin-left:0;
 }
 
 .more-details {
