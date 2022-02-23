@@ -194,11 +194,11 @@ section {
 .project-title {
     display: flex;
     justify-content: space-between;
-    text-transform: uppercase;
-    font-weight: 800;
+    /* text-transform: uppercase; */
+    font-weight: 600;
     margin-top: 10px;
 }
-#hr{
+hr{
     width:100%;
     text-align:left;
     margin-left:0;
