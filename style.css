@@ -44,17 +44,18 @@ section {
     padding: 100px 200px;
 }
 
-.main {
+    /* todo fix image with phones */
+
+ .main {
     width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    /* todo fix image with phones */
     background: url(images/background.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-}
+} 
 
 .main h2 {
     color: #fff;
@@ -281,24 +282,42 @@ hr{
     }
 
 }
-
+/* Media */
 @media (max-width:641px){
     body{
-        font-size: 12px;
+        font-size: 10.5px;
+        
     }
 
     .main-content h2{
         font-size: 0.8em;
+        
     }
 
     .main-content h3{
         font-size: 1.4em;
+    }
+
+    .main{
+        /* background: url(image/background.png) no-repeat; */
+        /* font-size: 0.6em; */
+        background: url(images/background_min.jpeg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 20em;
     }
 }
 
 @media (max-width:300px){
     body{
         font-size: 10px;
-     
     }
 }
+/* Test note 9 */
+
+/* @media only screen and (device-aspect-ratio: 16/9)
+{ ... }
+@media only screen and (min-device-aspect-ratio:
+1920/1080) { ... } */
+
+
