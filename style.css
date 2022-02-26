@@ -33,7 +33,7 @@ header {
 .logo{
     text-decoration: none;
     color: var(--custom_blue);
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 700;
     font-size: 1.8em;
 }
@@ -53,8 +53,6 @@ header {
 section {
     padding: 100px 200px;
 }
-
-    /* todo fix image with phones */
 
  .main {
     width: 100%;
@@ -298,12 +296,16 @@ hr{
         font-size: 10.5px;      
     }
     header{
-        font-size: 7.5px;
+        padding: 12px 20px;
+        font-size: 7px;
     }
     .navigation{
-        font-size: 8.5px;
+        font-size: 10px;
     }
-
+    .logo{
+        font-weight: 700;
+        font-size: 10px;
+    }
     .main-content h2{
         font-size: 0.8em;
         
@@ -328,11 +330,4 @@ hr{
         font-size: 10px;
     }
 }
-/* Test note 9 */
-
-/* @media only screen and (device-aspect-ratio: 16/9)
-{ ... }
-@media only screen and (min-device-aspect-ratio:
-1920/1080) { ... } */
-
 
