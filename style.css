@@ -6,9 +6,17 @@
     --black: #000016;
     --custom_blue_old: #3a6cf4;
     --custom_blue: #386efd;
+    --section-color: #eff7fa;
 
     /* var(--custom_blue) */
+    /* Alzero | todo */
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    /* --section-color: #eff7fa; */
   }
+
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -112,7 +120,10 @@ section {
     font-size: 1.7em;
     padding-right: 30px;
 }
-
+/*  */
+#resume {
+    background-color: var(--section-color);
+}
 .title {
     display: flex;
     justify-content: center;
@@ -159,6 +170,7 @@ section {
     font-weight: 700;
     margin: 10px;
 }
+/*  */
 
 .projects {
     background-color: var(--black);
@@ -222,6 +234,31 @@ hr{
     color: #601cfc;
 }
 
+/*  Start certificates */
+.certificates{
+    /* todo */
+    background-color: var(--section-color);
+}
+.certificates h2{
+    color: var(--custom_blue);
+}
+.certificates .box h4{
+    background-color: var(--green-color);
+}
+.certificates .box{
+    transition: 0.7s ease;
+}
+.certificates .box:hover {
+    transform: scale(1.1);
+ }
+/*  End certificates */
+
+/* todo add section here to different color  */
+
+/*  */
+.contact{
+    background-color: var(--section-color);
+}
 .contact .icon{
     font-size: 4.5em;
 }
@@ -236,6 +273,7 @@ hr{
 #email{
     font-size: 0.9em;
 }
+/*  */
 
 .footer {
     background-color: var(--black);
@@ -290,6 +328,7 @@ hr{
     }
 
 }
+
 /* Media */
 @media (max-width:641px){
     body{
