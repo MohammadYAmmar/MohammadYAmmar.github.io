@@ -159,6 +159,10 @@ section {
     text-align: center;
 }
 
+.phone {
+    transform: rotate(94deg);
+}
+
 .info {
     text-align: center;
 }
