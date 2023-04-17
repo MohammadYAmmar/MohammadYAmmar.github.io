@@ -348,8 +348,7 @@ hr{
         font-size: 10px;
     }
     .main-content h2{
-        font-size: 0.8em;
-        
+        font-size: 0.8em;       
     }
 
     .main-content h3{
@@ -357,7 +356,6 @@ hr{
     }
 
     .main{
-        /* background: url(image/background.png) no-repeat; */
         background: url(images/background_min.jpeg) no-repeat;
         background-size: cover;
         background-position: center;
